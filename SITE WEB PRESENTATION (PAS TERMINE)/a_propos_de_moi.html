@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio Lucas Croce</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <h1>Lucas Croce</h1>
+                    <h3>/ ETUDIANT IUT CORTE</h3>
+                </div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <a href="#"><li>HOME</li></a>
+                            <a href="#skillsscroll"><li>SKILLS</li></a>
+                            <a href="#worksscroll"><li>WORKS</li></a>
+                            <a href="#contactscroll"><li>CONTACT</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div id="presentation">
+                <section>
+                    <article id="portrait">
+                        <div>
+                            <div id="pp"><p><img src="img/circle-cropped.png" alt="photo_profil"></p></div>
+                            <div id="pnom"><h1>Lucas <br>Croce</h1></div>
+                            <div id="pe"><h2>Etudiant</h2></div>
+                            <div id="nav_p">
+                                <nav>
+                                    <ul>
+                                        <a href="https://soundcloud.com/lucas-croce-424224886" target="https://soundcloud.com/lucas-croce-424224886"><li><img src="img/logo_soundcloud.png"></li></a>
+                                        <a href="https://twitter.com/@lucascroce2" target="https://twitter.com/@lucascroce2"><li><img src="img/logo_twitter.png"></li></a>
+                                        <a href="https://www.youtube.com/channel/UCNYiP2EiKkiPBS-O-u_u_rA" target="https://www.youtube.com/channel/UCNYiP2EiKkiPBS-O-u_u_rA"><li><img src="img/logo_youtube.png"></li></a>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="texte_presentation">
+                        <div>
+                            <h1>Hello</h1>
+                            <p> Je m'appel Lucas Croce, j'ai 18 ans et je suis en première année de MMI à l'IUT de Corte. Je suis passionné de musique, je compose sur FL Studio depuis maintenant 1 an. J'aime aussi coder, le montage vidéo ou encore le design graphique. J'ai pour projet plus tard de monter un label de musique indépendant avec une protection des créations via le système de blockchain.<br>
+                            </p>
+                        </div>
+                    </article>
+                </section>  
+            </div>
+            <div id="skillsscroll"></div>
+            <div id="skills">
+                <section>
+                    <article id="skillsarticle">
+                        <div class="progressionbar">
+                            <div id="pbfl"></div>
+                            <div id="pbpfl"><p></p></div>
+                            <div id="pbps"></div>
+                            <div id="pbpps"><p></p></div>
+                            <div id="pbil"></div>
+                            <div id="pbpil"><p></p></div>
+                        </div>
+                        <div class="logospb">
+                            <div id="logofl"><p><img src="img/FL-Studio-12-Logo.png" alt="logo_fl"></p></div>
+                            <div id="logops"><p><img src="img/1051px-Adobe_Photoshop_CC_icon.png" alt="logo_ps"></p></div>
+                            <div id="logoai"><p><img src="img/Adobe_Illustrator_CC_icon.png" alt="logo_ai"></p></div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <div id="worksscroll"></div>
+            <div id="works">
+                <section>
+                    <article id="worksps">
+                        <div class="imagephotoshop">  
+                            <img src="img/photoshop_image1.PNG">
+                        </div>
+                        <div class="logophotoshop">
+                            <p><img src="img/1051px-Adobe_Photoshop_CC_icon.png" alt="logo_ps"></p>
+                        </div>  
+                    </article>
+                    <article id="worksfl">
+                        <div class="player">
+                            <div class="imageaudio">
+                                <img src="img/image_audio.PNG">
+                            </div>
+                            <audio controls>
+                                <source src="audio/music.mp3" type="audio/mp3">
+                            </audio>
+                            <div class="logoflstudio">
+                                <p><img src="img/FL-Studio-12-Logo.png" alt="logo_fl"></p>
+                            </div>
+                        </div>
+                    </article>
+                    <article id="worksil">
+                        <div class="imageillustrator">
+                            <img src="img/illustrator_image1.PNG">
+                        </div>
+                        <div class="logoillustrator">
+                            <p><img src="img/Adobe_Illustrator_CC_icon.png" alt="logo_ai"></p>
+                        </div>
+                    </article>
+                </section>
+            </div>
+            <div id="contactscroll"></div>
+            <div id="contact">
+                <section>
+                    <form action="/ma-page-de-traitement" method="post">
+                        <div id="prenomform">
+                            <label for="name"></label>
+                            <input type="text" id="name" name="user_name" placeholder="Name">
+                        </div>
+                        <div id="nomform">
+                            <label for="firstname"></label>
+                            <input type="text" id="firstname" name="user_firstname" placeholder="First name">
+                        </div>
+                        <div id="mailform">
+                            <label for="mail"></label>
+                            <input type="email" id="mail" name="user_mail" placeholder="E-Mail">
+                        </div>
+                        <div id="msgform">
+                            <label for="msg"></label>
+                            <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit"><p>Submit</p></button>
+                        </div>
+                    </form> 
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

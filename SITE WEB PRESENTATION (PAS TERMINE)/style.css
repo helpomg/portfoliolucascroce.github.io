@@ -1,0 +1,624 @@
+@font-face
+{
+    font-family: 'Roboto Thin';
+    src: url(fonts/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face
+{
+    font-family: 'Roboto Black';
+    src: url(fonts/Roboto-Black.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face
+{
+    font-family: 'Roboto Medium';
+    src: url(fonts/Roboto-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* MUSIC */
+
+.player audio
+{
+    width: 100%;
+    outline: none;
+}
+
+.player img
+{
+    width: 100%;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* FIN  MUSIC*/
+
+/* SCROLL*/
+#skillsscroll
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 360px;
+    top: 1150px;
+}
+
+#worksscroll
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 360px;
+    top: 2400px;
+}
+
+#contactscroll
+{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 360px;
+    top: 3300px;
+}
+/* FIN  SCROLL*/
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('img/Frame\ 5\ \(1\).png');
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body, html
+{
+    height: 100%;
+}
+
+#bloc_page
+{
+    margin: auto;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 1px 0px 10px lightgrey;
+    width: 100%;
+    z-index: 9999;
+}
+
+#nav
+{
+    display: flex;
+    margin-right: 30px;
+}
+
+header h1
+{
+    font-size: 1.5em;
+    display: flex;
+    font-family: Roboto Black;
+    margin-left: 3px;
+}
+
+header h3
+{
+    font-size: 1.1em;
+    display: flex;
+    font-family: Roboto Thin;
+    margin-left: 3px;
+    margin-top: 21px;
+}
+
+#titre_principal
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    font-family: Roboto Thin;
+    font-size: 1.1em;
+}
+
+nav a 
+{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px;
+}
+
+#presentation
+{
+    display: flex;
+    justify-content: center;
+}
+
+#nav_p 
+{
+    display: flex;
+}
+
+
+#portrait
+{
+    width: 389px;
+    height: 630px;
+    margin-top: 175px;
+    margin-right: 200px;
+    margin-left: 100px;
+}
+
+section 
+{
+    display: flex;
+
+}
+
+article
+{   
+    background: linear-gradient(110.93deg, rgba(255, 255, 255, 0.4) 1.73%, rgba(201, 201, 201, 0) 164.45%);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+
+#texte_presentation 
+{
+    margin-top: 100px;
+    width: 802.57px;
+    height: 738px;
+}
+
+#texte_presentation h1
+{
+    margin-left: 100px;
+    margin-bottom: 0px;
+    font-family: Roboto Black;
+    font-size: 4em;
+    width: 755.09px;
+    height: 213.86px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 112px;
+    color: #000000;
+}
+
+#texte_presentation p
+{
+    margin-left: 100px;
+    margin-top: 0px;
+    width: 491.71px;
+    height: 213.86px;
+    font-family: Roboto Thin;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+img
+{
+    width: 19px;
+    height: 19px;
+}
+
+#pp img
+{
+    width: 175px;
+    height: 175px;
+    margin-left: 28%;
+}
+
+#pnom
+{
+    font-family: Roboto Black;
+    font-size: 2em;
+    margin-left: 38%;
+}
+
+#pe
+{
+    font-family: Roboto Thin;
+    margin-left: 40%;
+    height: 150px;
+}
+
+#nav_p ul
+{
+    display: flex;
+    margin-left: 60%;
+}
+
+/* SKILL */
+
+#skills 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#skillsarticle 
+{
+    display: flex;
+    margin-top: 400px;
+    margin-left: 50px;
+    width: 1195px;
+    height: 711px;
+}
+
+.progressionbar p
+{
+    color: white;
+    font-family: Roboto Black;
+}
+
+#pbfl
+{
+    position: absolute;
+    width: 757px;
+    height: 40px;
+    left : 250px;
+    top : 180px;
+    background: #9CA3DB;
+    border-radius: 50px;
+}
+
+#pbps
+{
+    position: absolute;
+    width: 757px;
+    height: 40px;
+    left : 250px;
+    top : 330px;
+    background: #9CA3DB;
+    border-radius: 50px;
+}
+
+#pbil
+{
+    position: absolute;
+    width: 757px;
+    height: 40px;
+    left : 250px;
+    top : 480px;
+    background: #9CA3DB;
+    border-radius: 50px;
+}
+
+#pbpfl
+{
+    position: absolute;
+    width: 408px;
+    height: 40px;
+    left: 250px;
+    top : 180px;
+    background: #4E4187;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#pbpps
+{
+    position: absolute;
+    width: 142px;
+    height: 40px;
+    left: 250px;
+    top : 330px;
+    background: #4E4187;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pbpil
+{
+    position: absolute;
+    width: 217px;
+    height: 40px;
+    left: 250px;
+    top : 480px;
+    background: #4E4187;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#logofl
+{
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 175px;
+    top: 160px;
+}
+
+#logops
+{
+    position: absolute;
+    width: 70px;
+    height: 67.59px;
+    left: 175px;
+    top: 315px;
+}
+
+#logoai
+{
+    position: absolute;
+    width: 70px;
+    height: 69.04px;
+    left: 175px;
+    top: 465px;
+}
+
+.logospb img
+{
+    width: 45px;
+    height: 45px; 
+}
+
+
+/* WORKS */
+
+#works
+{
+    display: flex;
+    justify-content: center;
+}
+
+#worksps
+{
+    margin-top: 600px;
+    margin-right: 100px;
+    width: 316px;
+    height: 587px;
+}
+
+#worksfl
+{
+    margin-top: 600px;
+    margin-right: 100px;
+    width: 316px;
+    height: 587px;
+}
+
+#worksil
+{
+    margin-top: 600px;
+    width: 316px;
+    height: 587px;
+}
+
+.imageillustrator img
+{
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.imagephotoshop img 
+{
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.logoillustrator img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+.logophotoshop img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+
+.logoflstudio img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 135px;
+}
+/* FIN WORKS */
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    width: 851px;
+    height: 808px;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+
+#contact input
+{
+    background: transparent;
+    border: none;
+
+}
+
+#contact input:focus
+{
+    background: transparent;
+    outline: none;
+
+}
+
+#contact textarea
+{
+    background: transparent;
+    border: none;
+}
+
+#contact textarea:focus
+{
+    background: transparent;
+    outline: none;
+}
+
+#contact label
+{
+    font-family: Roboto Medium;
+}
+
+#contact button
+{
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: Roboto Medium;
+}
+
+
+#nomform
+{
+    background: linear-gradient(110.93deg, rgba(255, 255, 255, 0.4) 1.73%, rgba(201, 201, 201, 0) 164.45%);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 40px;
+    width: 225px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#prenomform
+{
+    background: linear-gradient(110.93deg, rgba(255, 255, 255, 0.4) 1.73%, rgba(201, 201, 201, 0) 164.45%);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 40px;
+    width: 225px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#mailform
+{
+    background: linear-gradient(110.93deg, rgba(255, 255, 255, 0.4) 1.73%, rgba(201, 201, 201, 0) 164.45%);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 40px;
+    width: 485px;
+    height: 53px;
+    padding-left: 30px;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+#msgform
+{
+    background: linear-gradient(110.93deg, rgba(255, 255, 255, 0.4) 1.73%, rgba(201, 201, 201, 0) 164.45%);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border-radius: 40px;
+    width: 485px;
+    height: 175px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+}
+
+#msgform textarea
+{
+    width: 485px;
+    height: 170px;
+}
+
+.button
+{
+    width: 200px;
+    height: 43px;
+    background: #000000;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    margin-left: 165px;
+}
+
+.button:hover
+{
+    width: 200px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    margin-left: 165px;
+}
+
+.button:hover p
+{
+    width: 200px;
+    height: 43px;
+    border-radius: 40px;
+    justify-content: center;
+    display: flex;
+    color: black;
+}
+
+@media screen and (max-width: 1150px){
+
+    #works section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #works article{
+        margin-top:10px;
+    }
+
+    #works #worksps{
+        margin-top:500px;
+    }
+}
